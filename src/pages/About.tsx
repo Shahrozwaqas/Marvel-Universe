@@ -42,7 +42,6 @@ export const About: React.FC = () => {
             <ul className="text-gray-400 space-y-1.5 list-disc list-inside">
               <li>Hero Grid & Card Layout</li>
               <li>Search / Filter System</li>
-              <li>Simple Local Storage Save</li>
               <li>Fully Responsive</li>
               <li>Smooth Animations</li>
             </ul>
