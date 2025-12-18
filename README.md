@@ -13,7 +13,7 @@ This project is built mainly to practice real-world React patterns, clean UI str
 ## Tech Stack
 - React
 - TypeScript
-- Vite
+- Lucid icons
 - Tailwind CSS
 - Framer Motion
 - React Router
