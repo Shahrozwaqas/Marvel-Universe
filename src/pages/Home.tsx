@@ -22,7 +22,7 @@ export const Home: React.FC<HomeProps> = ({ favorites, toggleFavorite }) => {
         {/* Background image */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat bg-fixed opacity-40"
-          style={{ backgroundImage: "url('./assets/home.jpg')" }}
+          style={{ backgroundImage: "url('../assets/home.jpg')" }}
         />
 
         {/* Overlay tint */}

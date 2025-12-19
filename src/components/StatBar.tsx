@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 interface StatBarProps {
-  label: string;          // Name of the stat (e.g., Strength, Speed)
-  value: number;           // Percentage value (0-100)
+  label: string;          // Name of the stat 
+  value: number;           // Percentage value 
   color?: string;          // Optional bar color, default is Marvel red
   delay?: number;          // Animation delay for staggered effect
 }
