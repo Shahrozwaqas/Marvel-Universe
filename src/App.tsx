@@ -43,7 +43,7 @@ const App: React.FC = () => {
     localStorage.setItem("marvelFavorites", JSON.stringify(favorites));
   }, [favorites]);
 
-  // toggle favs (card ke click ko rokna zaroori hai warna page navigate ho jata)
+  // toggle favs
   const toggleFavorite = (e: React.MouseEvent, hero: Hero) => {
     e.preventDefault();
     e.stopPropagation();
@@ -105,7 +105,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
 
-        {/* tiny footer – simple rakha purposely */}
+        {/* footer */}
         <footer className="bg-black py-8 text-center text-gray-600 text-sm border-t border-white/10">
           <p>© {year} Marvel Universe</p>
         </footer>

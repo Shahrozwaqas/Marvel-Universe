@@ -12,7 +12,7 @@ interface HomeProps {
 }
 
 export const Home: React.FC<HomeProps> = ({ favorites, toggleFavorite }) => {
-  // Just grabbing first few heroes for homepage
+  // grabbing first few heroes for homepage
   const featuredHeroes = HEROES.slice(0, 4);
 
   return (
