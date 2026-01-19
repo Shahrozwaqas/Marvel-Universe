@@ -183,8 +183,8 @@ export const HEROES: Hero[] = [
     teams: ["X-Force"],
     powerType: ["Mutant", "Healing"],
     bio: "Mercenary with regenerative healing and dark humor, breaks the fourth wall.",
-    img: "./images/Deadpool/deadpool.webp",
-    gallery: ["./images/Deadpool/deadpool1.webp", "./images/Deadpool/deadpool2.webp"],
+    img: "./images/DeadPool/deadpool1.webp",
+    gallery: ["./images/DeadPool/deadpool1.webp", "./images/DeadPool/deadpool2.webp"],
     strength: 80, intelligence: 85, speed: 75, durability: 90, popularity: 90,
     notableMovies: [
   "Deadpool (2016)",
